@@ -1,0 +1,91 @@
+body {
+    background-color: #dbdfdf;
+}
+
+.container {
+    background-color: #f5f5f5;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 50px auto;   
+    padding: 20px;
+    box-shadow: 0 5px 20px gray;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h3 {
+    text-transform: uppercase;
+}
+
+.img-area {
+    width: 130px;
+    height: 130px;
+    margin : 25px auto;
+    border: 15px groove gray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.info, .workexp {
+    padding: 30px;
+}
+
+h2 {
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0px;
+}
+
+.containerSkills {
+    width: 90%;
+    background-color: #ddd;
+    margin-left: 25px;    
+    color: white;
+}
+
+.skills {
+    text-align: right;
+}
+
+.html {
+    width: 90%;
+    background-color: orangered;
+}
+
+.css {
+    width: 80%;
+    background-color: blue;
+}
+
+.js {
+    width: 90%;
+    background-color: rgba(179, 181, 35, 0.638);
+}
+
+.info p {
+    padding-left: 25px;
+}
+
+.info h3 {
+    padding-left: 15px;
+}
+
+.workexp h3 {
+    padding-left: 25px;
+}
+
+.workexp p {
+    padding-left: 35px;
+}
+
+.workexp ul {
+    padding-left: 60px;
+}
